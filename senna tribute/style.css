@@ -4,3 +4,74 @@
     #253C78 - blue
     #E63946 - red
 */
+:root{
+    --yellow: #FFE900;
+    --blue: #253C78;
+    --mediumBlue: #5e86f3;
+    --lightBlue: #7bc9f7;
+    --red: #E63946;
+}
+
+
+body{
+    margin: 0px;
+    background-color: black;
+}
+
+header{
+    
+    background-image: linear-gradient(to top, var(--blue), var(--mediumBlue));
+    text-align: center;
+    color: white;
+}
+header > h1{
+    margin-top: 0px;
+}
+header > nav{
+    text-align: left;
+    padding: 6px;
+}
+nav > a{
+    color: var(--yellow);
+    padding: 3px;
+    margin-right: 9px;
+    text-decoration: none;
+    transition-duration: 0.9s;
+}
+nav > a:hover{
+    background-color: var(--lightBlue);
+    color: var(--blue);
+    border-radius: 3px;
+    text-decoration: underline;
+    
+}
+
+
+main{
+    background-color: white;
+    padding: 15px;
+    max-width: 900px;
+    min-width: 350px;
+    margin: auto;
+}
+main > h2{
+    margin: 0px;
+}
+main p{
+    padding: 0px;
+    margin: 0px;
+}
+img{
+    width: 100%;
+    display: block;
+}
+main img.ajust{
+    width: 60%;;
+    margin: auto;
+}
+
+
+footer{
+
+
+}
