@@ -71,7 +71,19 @@ img{
     width: 100%;;
     margin: auto;
 }
-
+div.video_center{
+    background-color: var(--blue);
+    margin: 0px -15px 0px -15px;
+    padding-bottom: 50%;
+    position: relative;
+}
+div.video_center > iframe{
+    position: absolute;
+    width: 80%;
+    height: 90%;
+    top:5%;
+    left: 10%;
+}
 
 footer{
 
