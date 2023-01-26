@@ -62,11 +62,13 @@ main p{
     margin: 0px;
 }
 img{
-    width: 100%;
+    
+    margin: auto;
     display: block;
+    
 }
-main img.ajust{
-    width: 60%;;
+.ajust{
+    width: 100%;;
     margin: auto;
 }
 
