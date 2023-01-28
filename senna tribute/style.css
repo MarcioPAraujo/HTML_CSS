@@ -130,7 +130,7 @@ footer > h3{
 }
 footer a{
     color: var(--red);
-    
+    margin-right: 30px;
 }
 footer > ul{
     columns: 2;
