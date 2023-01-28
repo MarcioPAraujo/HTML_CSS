@@ -1,5 +1,10 @@
 @charset "UTF-8";
-
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@font-face {
+    font-family: 'title_font';
+    src: url(fonts/Aero.ttf) format('opentype');
+}
 /*  #FFE900 - yellow
     #253C78 - blue
     #E63946 - red
@@ -10,12 +15,21 @@
     --mediumBlue: #5e86f3;
     --lightBlue: #7bc9f7;
     --red: #E63946;
+    --footerBackGround: rgb(70, 70, 70);
+
+    --paragraphFont:'Ubuntu', sans-serif;
+    --topicFont: 'Audiowide', cursive;
+    --title_font: 'title_font', monospace;
 }
 
 
 body{
     margin: 0px;
     background-color: black;
+}
+
+a{
+    font-family:var(--paragraphFont);
 }
 
 header{
@@ -26,6 +40,10 @@ header{
 }
 header > h1{
     margin-top: 0px;
+    font-family: var(--title_font);
+}
+header > p{
+    font-family: var(--paragraphFont);
 }
 header > nav{
     text-align: left;
@@ -49,17 +67,33 @@ nav > a:hover{
 
 main{
     background-color: white;
-    padding: 15px;
+    padding: 0px 15px 15px 15px;
     max-width: 900px;
     min-width: 350px;
     margin: auto;
 }
+
 main > h2{
-    margin: 0px;
+    margin: 0px 0px 0px -15px;
+    font-family: var(--topicFont);
+    font-size: 1.8em;
+    text-indent: 0.3em;
+    background-image: linear-gradient(90deg, var(--mediumBlue), rgb(0, 185, 0), var(--yellow), transparent);
+}
+main  h3{
+    font-family: var(--topicFont);
+    text-indent: 0.6em;
+}
+main h4{
+    text-indent: 3em;
+    font-family: var(--topicFont);
 }
 main p{
-    padding: 0px;
-    margin: 0px;
+    text-indent: 2em;
+    text-align: justify;
+    line-height: 1.5em;
+    font-family:var(--paragraphFont);
+    margin: 10px 0px;
 }
 img{
     
@@ -86,6 +120,20 @@ div.video_center > iframe{
 }
 
 footer{
-
-
+    text-indent: 30px;
+    background-color: var(--footerBackGround);
+}
+footer > h3{
+    font-family: var(--topicFont);
+    color: white;
+    margin: 0px;
+}
+footer a{
+    color: var(--red);
+    
+}
+footer > ul{
+    columns: 2;
+    margin-bottom: 0px;
+    padding-bottom: 15px;
 }
