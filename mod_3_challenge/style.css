@@ -1,17 +1,26 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Martian+Mono:wght@500&display=swap');
+
 *{
     margin: 0px;
     padding: 0px;
 }
-
+:root{
+    --title_font:'Aboreto', cursive;
+    --text_font:'Martian Mono', monospace;
+    --header_background_color:darkgoldenrod;
+    --link_color:yellow;
+}
 header{
     text-align: center;
-    background-color: darkgoldenrod;
+    background-color: var(--header_background_color);
     padding: 30px;
     color: gold;
 }
 header h1{
+    font-family: var(--title_font) ;
     font-size: 3em;
     font-variant-caps: small-caps;
 }
@@ -19,7 +28,7 @@ header  p{
     padding: 10px;
 }
 header a{
-    color: yellow;
+    color:var(--link_color) ;
     text-decoration: none;
     font-weight: bold;
 }
@@ -35,6 +44,7 @@ section{
     padding-left: 30px;
 }
 main p{
+    font-family: var(--text_font);
     line-height: 2em;
 }
 section.normal{
