@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tables</title>
+    <style>
+        table{
+            width: 300px;
+            border-collapse: collapse;
+        }
+        
+        td, th{
+            border: 1px solid black;
+            padding: 3px;
+
+        }
+        th,tfoot{
+            background-color: lightblue;
+            color: white;
+        }
+        .number{
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <H1>working with large tables</H1>
+
+    <table>
+        <thead>
+            <th>product</th>
+            <th>price</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>pencil</td>
+                <td class="number">2.50</td>
+            </tr>
+            <tr>
+                <td>pen</td>
+                <td class="number">3.80</td>
+            </tr>
+            <tr>
+                <td>rubber</td>
+                <td class="number">3.50</td>
+            </tr>
+            <tr>
+                <td>notebook</td>
+                <td class="number">25.00</td>
+            </tr>
+            <tr>
+                <td>crayons</td>
+                <td class="number">20.00</td>
+            </tr>
+            <tr>
+                <td>folder</td>
+                <td class="number">5.00</td>
+            </tr>
+            <tr>
+                <td>book</td>
+                <td class="number">70.00</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>total</th>
+                <td class="number"><strong>11111111</strong></td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
