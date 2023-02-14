@@ -5,6 +5,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>challenge 03</title>
+    <style>
+        caption{
+            font-weight: bold;
+            background-color: orange;
+        }
+        table{
+            font-family: 'Courier New', Courier, monospace;
+            text-align: center;
+            border-collapse: collapse;
+            width: 600px;
+        }
+        td,th{
+            border: 1px solid black;
+            padding: 6px;
+        }
+        th{
+            background-color: lightgrey;
+            
+        }
+    </style>
 </head>
 <body>
     
@@ -12,31 +32,64 @@
         <caption>Grades</caption>
         <thead>
             <tr>
-                <th>Area</th>
-                <th>Subject</th>
-                <th>Grades</th>
-                <th>Average</th>
+                <th rowspan="2" scope="col">Area</th>
+                <th rowspan="2" scope="col">Subject</th>
+                <th colspan="2" scope="colgroup">Grades</th>
+                <th rowspan="2" scope="col">Average</th>
             </tr>
             <tr>
-                <th>grade 01</th>
-                <th>grade 02</th>
+                <th scope="col">grade 01</th>
+                <th scope="col">grade 02</th>
             </tr>
         </thead>
         <tbody>
             <tr>
-                <th>Exact Sciences</th>
+                <th rowspan="4" scope="rowgroup">Exact Sciences</th>
                 <td>Math</td>
                 <td>0</td>
                 <td>0</td>
                 <td>0</td>
             </tr>
-            <tr></tr>
-            <tr></tr>
-            <tr></tr>
-            <tr></tr>
-            <tr></tr>
-            <tr></tr>
-            <tr></tr>
+            <tr>
+                <td>Physics</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <td>Chemistry</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <td>Biology</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <th colspan="4" scope="row">Exact Sciences Average</th>
+                <td>0</td>
+            </tr>
+            <tr>
+                <th rowspan="2" scope="rowgroup">Human Sciences</th>
+                <td>History</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <td>Geography</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+
+            </tr>
+            <tr>
+                <th colspan="4" scope="row">Human Sciences Average</th>
+                <td>0</td>
+            </tr>
         </tbody>
     </table>
 
