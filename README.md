@@ -5,4 +5,4 @@
 
  <a href="https://marcioparaujo.github.io/html_css/mod_3_challenge/">Projeto Cordel de Milton Duarte </a>
 
- <a href="https://github.com/MarcioPAraujo/html_css/blob/main/social%20media/">My social medias</a>
+ <a href="https://marcioparaujo.github.io/html_css/social%20media/">My social medias</a>
