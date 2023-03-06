@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body{
+    height: 100vh;
+    width: 100vw;
+}
+body{
+    background: url('../pacote-d013/imagens/quantum.jpg') no-repeat top center; 
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+main{
+    height: 100vh;
+    position: relative;
+}
+#phone iframe{
+    
+    position: relative;
+    top: 70px;
+    left: 20px;
+    height: 480px;
+    width: 270px;
+}
+section#phone{
+    background: url(../pacote-d013/imagens/frame-iphone.png) no-repeat;
+    height: 625px;
+    width: 314px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
