@@ -36,3 +36,17 @@ section#phone{
     left: 50%;
     transform: translate(-50%,-50%);
 }
+section#icons{
+    text-align: right;
+}
+section#icons img{
+    border-radius: 50%;
+    width: 60px;
+    margin-top: 18px;
+    box-sizing: border-box;
+}
+section#icons img:hover{
+    border: 2px solid gold;
+    transform: translate(-6px, -6px);
+    transition: 0.3s;
+}
