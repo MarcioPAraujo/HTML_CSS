@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>second form</title>
+</head>
+<body>
+     <h1>Example with form</h1>
+     <p>this form doesn't allow send empty data</p>
+     
+     <form action="register.php" method="post" autocomplete="on">
+        <p>
+            <label for="iuser">User</label>
+            <input type="text" name="nome" id="iuser" required minlength="3" maxlength="20" size="30" placeholder="your name" autocomplete="username">
+        </p>
+        <p>
+            <label for="ipassword">Password</label>
+            <input type="password" name="user_password" id="ipassword" required minlength="8" maxlength="25" size="30" placeholder="your safety" autocomplete="current-password">
+        </p>
+        <p>
+            <input type="submit" value="submit">
+            <input type="reset" value="clear">
+        </p>
+     </form>
+</body>
+</html>
