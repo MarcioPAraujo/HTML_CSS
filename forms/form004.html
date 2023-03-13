@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fourth form</title>
+</head>
+<body>
+    <h1>requesting pnoe number and email</h1>
+    <form action="register.php">
+        <fieldset>
+            <legend>Personal data</legend>
+            <p>
+                <label for="iemail">email</label>
+                <input type="email" name="email" id="iemail" size="30" required autocomplete="email">
+            </p>
+            <p>
+                <label for="iphone">phone number</label>
+                <input type="tel" name="phone" id="iphone" autocomplete="tel" pattern="^\(\d{2}/)\d{5}-\d{4}$" placeholder="(00)00000-0000">
+            </p>
+        </fieldset>
+        <p>
+            <input type="submit" value="send">
+            <input type="reset" value="clear">
+        </p>
+    </form>
+</body>
+</html>
