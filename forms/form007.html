@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>seventh form</title>
+</head>
+<body>
+    
+    <form action="register.php" method="post">
+        <p>
+            <label for="istates">States</label>
+            <select name="states" id="istates">
+                <option value="select">-select-</option>
+                <optgroup label="Região Sul">
+                    
+                    <option value="RS">Rio Grande do Sul</option>
+                    <option value="SC">Santa Catarina</option>
+                    <option value="PR">Paraná</option>
+                </optgroup>
+            </select>
+        </p>
+        
+        <p>
+            <label for="iprofession">profession</label>
+            <input type="text" name="profession" id="iprofession" list="list">
+            <datalist id="list">
+                <option >truck driver</option>
+                <option >writer</option>
+                <option >musician</option>
+            </datalist>
+        </p>
+
+        <p>
+            <label for="imessage">message</label><br>
+            <textarea name="message" id="imessage" cols="30" rows="10" placeholder="write something"></textarea>
+        </p>
+
+        <p>
+            <input type="submit" value="send">
+            <input type="reset" value="clear">
+        </p>
+
+    </form>
+
+</body>
+</html>
