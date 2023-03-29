@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+/*PRINTER*/
+*{
+    margin: auto;
+    padding: 13px;
+}
+ul{
+    display: none;
+}
+main{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.25em;
+    line-height: 1.4em;
+}
