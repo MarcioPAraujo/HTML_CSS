@@ -11,12 +11,26 @@ header{
     padding: 15px;
     box-shadow: -2px 2px 9px darkgray;
 }
-menu > ul{
-    list-style-type: none;
+menu{
+    display: none;
 }
 h1{
     text-align: center;
     color: white;
+}
+span#ham{
+    background-color: orange;
+    display: block;
+    text-align: center;
+    padding: 3px;
+    cursor: pointer;
+}
+span#ham:hover{
+    background-color: white;
+    
+}
+menu > ul{
+    list-style-type: none;
 }
 a{
     text-decoration: none; 
