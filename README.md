@@ -8,3 +8,5 @@
  <a href="https://marcioparaujo.github.io/html_css/social%20media/" target="_blank">My social medias</a>
 
  <a href="https://marcioparaujo.github.io/html_css/media%20query/mediaq002/">Media query background</a>
+
+<a href="https://marcioparaujo.github.io/html_css/">projects</a>
