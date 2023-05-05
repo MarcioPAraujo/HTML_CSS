@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+/*
+COLOR PALETTE
+    yellow - #F2B80E
+    blue - #002D65
+    green - #009451
+*/
+:root{
+    --yellow: #F2B80E;
+    --blue: #002D65;
+    --green: #009451;
+}
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box ;
+}
+body html{
+    background-color: var(--blue);
+    height: 100vh;
+    width: 100vw;
+}
+main{
+    height: 100vh;
+    width: 100vw;
+}
+section#login{
+    background-color: var(--yellow);
+}
