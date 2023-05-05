@@ -6,9 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/medias.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
 </head>
-<body>
+<body onresize="sizeChange()">
     <header>
         <h1>Book Store</h1>
         <span id="ham"class="material-icons" onclick="clickMenu()">menu</span>
@@ -48,6 +49,15 @@
         
     </footer>
     <script>
+
+        function sizeChange(){
+            if(window.innerWidth >= 920){
+                iten.style.display = "block";
+            }else{
+                iten.style.display = "none";
+            }
+        }
+
         function clickMenu(){
             if(iten.style.display == "block"){
                 iten.style.display = "none";
