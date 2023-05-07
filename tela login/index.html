@@ -7,6 +7,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="styles/general.css">
     <link rel="stylesheet" href="styles/medias.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
 </head>
 <body>
     <main>
@@ -18,17 +19,23 @@
                 <h1>LOGIN</h1>
                 <p>Insert your password and login to access</p>
                 <form action="fileExample.php" method="post">
-                    <p>
+                    <div>
+                        <span class="material-icons">perm_identity</span>
+                        
+                        <input type="email" name="login" id="idlogin" required placeholder=" your email"autocomplete="off">
                         <label for="idlogin">login</label>
-                        <input type="text" name="login" id="idlogin" required autocomplete="off">
-                    </p>
-                    <p>
-                        <label for="idpassword">password</label>
+                    </div>
+                    <div>
+                        <span class="material-icons">lock_open</span>
+                        
                         <input type="password" name="password" id="idpassword" required autocomplete="off" minlength="9">
-                    </p>
-                    <p>
+                        <label for="idpassword">password</label>
+                    </div>
+                    <div>
                         <input type="submit" value="send">
-                    </p>
+                        <a href="#">forgot password</a>
+                        <span class="material-icons">exit_to_app</span>
+                    </div>
                 </form>
             </div>
         </section>
