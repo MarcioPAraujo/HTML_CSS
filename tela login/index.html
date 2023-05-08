@@ -19,22 +19,25 @@
                 <h1>LOGIN</h1>
                 <p>Insert your password and login to access</p>
                 <form action="fileExample.php" method="post">
-                    <div>
+                    <div class="field">
                         <span class="material-icons">perm_identity</span>
                         
                         <input type="email" name="login" id="idlogin" required placeholder=" your email"autocomplete="off">
                         <label for="idlogin">login</label>
                     </div>
-                    <div>
+                    <div class="field">
                         <span class="material-icons">lock_open</span>
                         
                         <input type="password" name="password" id="idpassword" required autocomplete="off" minlength="9">
                         <label for="idpassword">password</label>
                     </div>
                     <div>
-                        <input type="submit" value="send">
-                        <a href="#">forgot password</a>
-                        <span class="material-icons">exit_to_app</span>
+                        <input type="submit" value="Send">
+                        <a href="#" class="button">
+                            forgot password
+                            <span class="material-icons">exit_to_app</span>
+                        </a>
+                        
                     </div>
                 </form>
             </div>

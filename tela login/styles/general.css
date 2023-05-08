@@ -63,3 +63,44 @@ section > div#form{
 div#form h1{
     text-align: center;
 }
+div.field label{
+    display: none;
+}
+ form div.field{
+    background-color: var(--green);
+    height: 60px;
+    margin: 6px 0px;
+    border-radius: 9px;
+    padding-top: 9px;
+ }
+
+div a.button{
+    display: block;
+    text-align: center;
+    color: black;
+    background-color: white;
+    text-decoration: none;
+    margin-top: 9px;
+  
+}
+div a.button:hover{
+    background-color: red;
+}
+
+
+div > input[type=submit]{
+    display: inline-block;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    color: white;
+    background-color: var(--blue);
+    border: none;
+    margin-bottom: 9px;
+
+    
+}
+div > input[type=submit]:hover{
+    background-color:rgb(0, 140, 255);
+    box-shadow: 0px 0px 9px rgb(86, 179, 255) inset;
+}
