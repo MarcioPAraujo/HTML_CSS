@@ -33,7 +33,7 @@ section#login{
     
 
     width: 400px;
-    height: 700px;
+    height: 550px;
     background-color: var(--yellow);
 
     position: absolute;
@@ -92,7 +92,7 @@ div.field label{
     height: 100%;
     width: calc(100% - 68px);
 
-    transform: translateY(-15px);
+    transform: translateY(-13px);
     
  }
 
