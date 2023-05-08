@@ -46,5 +46,14 @@
 
         font-size: 1.2em;
     }
+
+    div.field input{
+        
+        width: calc(100% - 69px);
+        transform: translateY(-25px);
+    }
+    div.field span{
+        transform: translateY(-6px);
+    }
    
 }
