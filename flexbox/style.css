@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    background-color: yellow;
+    padding: 12px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    
+    flex-wrap: wrap;
+    gap: 30px;
+
+}
+
+.item{
+    flex-grow: 1;
+
+}
+
+div{
+    width: 150px;
+    height: 400px;
+
+    background-color: lightblue;
+}
