@@ -2,6 +2,8 @@
 
 :root{
     --title: 'Tangerine', cursive;
+    /**/
+    --colorful-shadow: 60deg,#00ff00,#f0f000, #0000ff,#ff0000,#00ffff,#ff00ff;
 }
 
 *{
@@ -18,17 +20,18 @@ h2{
     font-size: 2em;
     padding: 9px;
     margin-top: 18px;
+    margin-bottom: 18px;
 
     text-indent: 24px;
 }
 
 header h1{
     padding: 6px;
-    margin-bottom: 9px;
+    margin-bottom: 18px;
     text-align: center;
 }
 .container{
-    /*background-color: red;*/
+    
     display: flex;
     align-items: center;
     justify-content: center;
@@ -49,10 +52,7 @@ img{
     height: 680px;
 
     border-radius: 15px;
-
-    
-
-    
+  
 }
 .image-shadow{
     position: relative;
@@ -68,7 +68,7 @@ img{
     top: -5px;
     left: -5px;
 
-    background: linear-gradient(60deg, #0000ff,#f0f000,#00ff00,#ff0000,#ff00ff,#00ffff);
+    background: linear-gradient(var(--colorful-shadow));
     width: 100%;
     height: 100%;
     background-size: 300%;
