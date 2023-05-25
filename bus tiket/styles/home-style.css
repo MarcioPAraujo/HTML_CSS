@@ -32,7 +32,7 @@ html{
 }
 .container{
     background-image: linear-gradient(var(--gradiente-laranja));
-
+/*ajustar tamanho*/
     width: 50vw;
     height: 50vh;
 
@@ -47,15 +47,16 @@ html{
     
     display: flex;
     flex-direction: column;
+    flex-grow: 1;
+    align-self:center;
 
-
-    padding: 1em;
+    margin: 2em;
 
     gap: 1em;
 }
 button{
     padding: 1em;
-    
+    margin: auto;
     width: 300px;
 
     border: none;
@@ -74,16 +75,22 @@ button:hover{
 }
 
 .images{
+    height: 500px;
+    width: 400px;
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-
     align-self: center;
+
+
+    
+
+    background-image: url(../images/itens-de-viagem.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
     
 }
 
 
-img{
+/*img{
 
     
     width: 450px;
@@ -95,4 +102,4 @@ img{
     padding: 6px;
 
    
-}
+}*/
