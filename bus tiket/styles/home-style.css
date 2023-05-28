@@ -82,7 +82,7 @@ a:hover{
     font-size: 1rem;
     transition-duration: 0.3s;
 }
-button{
+input{
     padding: 1em;
     margin: auto;
     width: 300px;
@@ -92,7 +92,7 @@ button{
 
     background-color: white;
 }
-button:hover{
+input:hover{
     box-shadow: var(--sombra);
 
     background-color: var(--laranja-escuro);
