@@ -31,7 +31,8 @@ main{
 
     
 
-    padding: 3em;
+    margin: 0vmin 30vmin;
+    padding: 0vmin 30vmin;
     
 }
 header{
@@ -54,13 +55,16 @@ header{
     align-items: center;
 
     flex-grow: 1;
-
+    
     border-radius: 0px 15px 15px 0px;
 
 }
 section#image-container{
     flex: 1;
     border-radius: 15px 0px 0px 15px;
+}
+section#form-container{
+    padding: 3vmin;
 }
 .buttons{
     
@@ -69,7 +73,7 @@ section#image-container{
     flex-grow: 1;
     align-self:center;
 
-    margin: 2em;
+    
 
     gap: 1em;
 }
@@ -85,7 +89,7 @@ a:hover{
 input{
     padding: 1em;
     margin: auto;
-    width: 300px;
+    width: 40vmin;
 
     border: none;
     border-radius: 9px;
